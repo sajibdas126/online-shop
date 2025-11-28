@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Men’s Denim Jeans",
+    "category": "Clothes",
+    "price": 1299,
+    "oldPrice": 1799,
+    "rating": 4.8,
+    "stock": true,
+    "sku": "CL87",
+    "size": ["30", "32", "34", "36"],
+    "image": "https://i.ibb.co/4PWxFz8/men-jeans.png"
+  },
+  {
+    "id": 2,
+    "title": "Women's Winter Jacket",
+    "category": "Clothes",
+    "price": 2199,
+    "oldPrice": 2699,
+    "rating": 4.7,
+    "stock": true,
+    "sku": "CL112",
+    "size": ["S", "M", "L", "XL"],
+    "image": "https://i.ibb.co/4FtQY7y/woman-jacket.png"
+  },
+  {
+    "id": 3,
+    "title": "Smart Digital Watch",
+    "category": "Watches",
+    "price": 999,
+    "oldPrice": 1499,
+    "rating": 4.5,
+    "stock": true,
+    "sku": "WT45",
+    "image": "https://i.ibb.co/zf5PNtB/smart-watch.png"
+  },
+  {
+    "id": 4,
+    "title": "Kids Fashion Dress",
+    "category": "Dresses",
+    "price": 699,
+    "oldPrice": 999,
+    "rating": 4.6,
+    "stock": true,
+    "sku": "DR20",
+    "size": ["2Y", "3Y", "4Y", "5Y"],
+    "image": "https://i.ibb.co/njBDfJ8/kids-dress.png"
+  },
+  {
+    "id": 5,
+    "title": "Stylish Sunglasses",
+    "category": "Glasses",
+    "price": 299,
+    "oldPrice": 499,
+    "rating": 4.4,
+    "stock": false,
+    "sku": "GL09",
+    "image": "https://i.ibb.co/34Zp7dL/sunglasses.png"
+  },
+  {
+    "id": 6,
+    "title": "Premium Cosmetics Set",
+    "category": "Cosmetics",
+    "price": 899,
+    "oldPrice": 1199,
+    "rating": 4.9,
+    "stock": true,
+    "sku": "CM55",
+    "image": "https://i.ibb.co/6W3RH7k/cosmetics.png"
+  },
+  {
+    "id": 7,
+    "title": "Women’s Stylish Handbag",
+    "category": "Accessories",
+    "price": 1599,
+    "oldPrice": 1999,
+    "rating": 4.3,
+    "stock": true,
+    "sku": "AC98",
+    "image": "https://i.ibb.co/JC5XtB7/handbag.png"
+  },
+  {
+    "id": 8,
+    "title": "Men’s Sports Shoes",
+    "category": "Footwear",
+    "price": 1699,
+    "oldPrice": 2199,
+    "rating": 4.6,
+    "stock": true,
+    "sku": "FT22",
+    "size": ["40", "41", "42", "43", "44"],
+    "image": "https://i.ibb.co/Bw0bF3m/sports-shoes.png"
+  },
+  {
+    "id": 9,
+    "title": "Kids Toy Car",
+    "category": "Toys",
+    "price": 499,
+    "oldPrice": 699,
+    "rating": 4.7,
+    "stock": true,
+    "sku": "TY33",
+    "image": "https://i.ibb.co/5ry44PM/toy-car.png"
+  },
+  {
+    "id": 10,
+    "title": "Airpods Wireless Earbuds",
+    "category": "Electronics",
+    "price": 2299,
+    "oldPrice": 2799,
+    "rating": 4.8,
+    "stock": true,
+    "sku": "EL07",
+    "image": "https://i.ibb.co/vZCvzp4/airpods.png"
+  }
+]

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+  
+   font-family: "Poppins", sans-serif;
+}
+html,body{
+ @apply bg-white text-black min-h-screen
+}
+
+.cp{
+  color: #5caf90;
+}
+.bcp{
+  background-color:#5caf90 ;
+}
+.ts{
+  color:rgb(159, 156, 156)122, 118, 118;
+  font-size:14px;
+}
