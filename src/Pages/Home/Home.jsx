@@ -3,6 +3,7 @@ import { Hero } from './HomeComponent/Hero'
 import { HomeCategory } from './HomeComponent/HomeCategory'
 import { PopularProduct } from './HomeComponent/PopularProduct/PopularProduct'
 import LatestExculusive from './HomeComponent/LatestExculusive'
+import NewProduct from './HomeComponent/NewProduct'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <HomeCategory/>
       <PopularProduct/>
       <LatestExculusive></LatestExculusive>
+      <NewProduct></NewProduct>
     </div>
   )
 }
