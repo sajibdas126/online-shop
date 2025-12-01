@@ -12,7 +12,7 @@ const NewProduct = () => {
     
   return (
     <div>
-        <div className='container mx-auto px-24 '>
+        <div className='container mx-auto px-24 py-10 '>
             <div>
                 <SectionHeading discription={"Don't wait. the time will never be just right."} heading={"Day of the deal"} colorHeading={"The deal"}></SectionHeading>
             </div>

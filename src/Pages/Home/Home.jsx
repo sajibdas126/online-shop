@@ -4,6 +4,8 @@ import { HomeCategory } from './HomeComponent/HomeCategory'
 import { PopularProduct } from './HomeComponent/PopularProduct/PopularProduct'
 import LatestExculusive from './HomeComponent/LatestExculusive'
 import NewProduct from './HomeComponent/NewProduct'
+import Collection from './HomeComponent/Collection'
+import Support from './HomeComponent/Support'
 
 export const Home = () => {
   return (
@@ -13,6 +15,8 @@ export const Home = () => {
       <PopularProduct/>
       <LatestExculusive></LatestExculusive>
       <NewProduct></NewProduct>
+      <Collection></Collection>
+      <Support></Support>
     </div>
   )
 }
