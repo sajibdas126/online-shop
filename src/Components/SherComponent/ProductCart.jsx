@@ -6,7 +6,7 @@ import { TbCurrencyTaka } from 'react-icons/tb'
 export const ProductCart = ({product}) => {
   return (
    <div>
-     <div className='w-74 border flex flex-col justify-center items-center  border-gray-200 rounded-md'>
+     <div className='w-74 border flex flex-col justify-center items-center  border-gray-200 rounded-md shadow'>
        <img className='w-72 flex '  src={product.image} alt="" />
         <div className='text-left w-full p-3 '>
             <p className='text-gray-400'>{product.category}</p>
@@ -19,8 +19,8 @@ export const ProductCart = ({product}) => {
                 <FaStar></FaStar>
             </div>
             <div className='flex  gap-3'>
+
                 <p className='cp flex items-center'>{product.price}<TbCurrencyTaka/></p>
-               
                 <p className='line-through flex items-center text-gray-500'>{product.oldPrice}<TbCurrencyTaka/></p>
            
             </div>

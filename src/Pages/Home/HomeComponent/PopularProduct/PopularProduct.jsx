@@ -38,10 +38,10 @@ export const PopularProduct = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-4 mb-4 mt-12">
+      <div className="flex flex-wrap justify-between items-center gap-4 mb-4 mt-12">
         {filterProduct
           .sort((a, b) => b.rating - a.rating)
-          .slice(0,8)
+          .slice(0,9)
           .map((product) => (
             <ProductCart key={product.id} product={product} />
           ))}
