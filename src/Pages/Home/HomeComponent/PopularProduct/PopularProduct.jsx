@@ -48,7 +48,7 @@ export const PopularProduct = () => {
       </div>
 
       <div className="flex justify-center">
-        <Link to="">
+        <Link to="/shop">
           <div className="flex bcp cursor-pointer justify-center items-center flex-wrap rounded-md py-4 w-74 text-white font-semibold">
             <p>View All Products</p>
             <TbCategory />
