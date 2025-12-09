@@ -17,7 +17,7 @@ const NewProduct = () => {
                 <SectionHeading discription={"Don't wait. the time will never be just right."} heading={"Day of the deal"} colorHeading={"The deal"}></SectionHeading>
             </div>
           <div className='py-12'>
-             <div className='flex flex-wrap gap-4 justify-center'>
+             <div className='flex flex-wrap gap-4 justify-between'>
           {
             products.map(p=><ProductCart  product={p}>
 
