@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "../../../assets/images/x-icon.png";
 import { CiShoppingCart, CiUser } from "react-icons/ci";
+import { useNavigate } from "react-router";
 
 export const MidHeader = () => {
+  const navigate = useNavigate()
   return (
     <div className="py-2 bg-white">
       <div className="container mx-auto px-4 md:px-24 flex flex-col md:flex-row items-center justify-between gap-3">
@@ -45,7 +47,7 @@ export const MidHeader = () => {
         <div className="flex items-center gap-4 md:gap-6 w-full md:w-auto justify-center md:justify-end">
 
           {/* Account */}
-          <div className="flex items-center gap-1 cursor-pointer">
+          <div onClick={()=>navigate("/auth")} className="flex items-center gap-1 cursor-pointer">
             <CiUser className="text-3xl" />
             <div>
               <p className="text-xs text-gray-400">Account</p>
