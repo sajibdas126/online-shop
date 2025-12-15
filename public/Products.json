@@ -9,7 +9,8 @@
     "stock": true,
     "sku": "CL87",
     "size": ["30", "32", "34", "36"],
-    "image": "public/producr/01.jpg"
+    "image": "public/producr/01.jpg",
+    "fit": "Standard Fit"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "stock": true,
     "sku": "CL112",
     "size": ["S", "M", "L", "XL"],
-    "image": "public/producr/02.jpg"
+    "image": "public/producr/02.jpg",
+    "fit": "Standard Fit"
   },
   {
     "id": 3,
@@ -32,7 +34,8 @@
     "rating": 4.5,
     "stock": true,
     "sku": "WT45",
-    "image": "public/producr/03.jpg"
+    "image": "public/producr/03.jpg",
+    "fit": "Compact Fit"
   },
   {
     "id": 4,
@@ -44,7 +47,8 @@
     "stock": true,
     "sku": "DR20",
     "size": ["2Y", "3Y", "4Y", "5Y"],
-    "image": "public/producr/04.jpg"
+    "image": "public/producr/04.jpg",
+    "fit": "Standard Fit"
   },
   {
     "id": 5,
@@ -55,7 +59,8 @@
     "rating": 4.4,
     "stock": false,
     "sku": "GL09",
-    "image": "public/producr/05.jpg"
+    "image": "public/producr/05.jpg",
+    "fit": "Compact Fit"
   },
   {
     "id": 6,
@@ -66,7 +71,8 @@
     "rating": 4.9,
     "stock": true,
     "sku": "CM55",
-    "image": "public/producr/06.jpg"
+    "image": "public/producr/06.jpg",
+    "fit": "Medium Fit"
   },
   {
     "id": 7,
@@ -77,7 +83,8 @@
     "rating": 4.3,
     "stock": true,
     "sku": "AC98",
-    "image": "public/producr/07.jpg"
+    "image": "public/producr/07.jpg",
+    "fit": "Compact Fit"
   },
   {
     "id": 8,
@@ -89,7 +96,8 @@
     "stock": true,
     "sku": "FT22",
     "size": ["40", "41", "42", "43", "44"],
-    "image": "public/producr/08.jpg"
+    "image": "public/producr/08.jpg",
+    "fit": "Medium Fit"
   },
   {
     "id": 9,
@@ -100,7 +108,8 @@
     "rating": 4.7,
     "stock": true,
     "sku": "TY33",
-    "image": "public/producr/09.jpg"
+    "image": "public/producr/09.jpg",
+    "fit": "Medium Fit"
   },
   {
     "id": 10,
@@ -111,6 +120,7 @@
     "rating": 4.8,
     "stock": true,
     "sku": "EL07",
-    "image": "public/producr/01.jpg"
+    "image": "public/producr/01.jpg",
+    "fit": "Compact Fit"
   }
 ]

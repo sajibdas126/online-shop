@@ -3,42 +3,42 @@
 [
   {
     "id": 1,
-    "name": "Clothes",
+    "category": "Clothes",
     "items": 320,
     "discount": "35%",
     "image": "public/category/01.jpg"
   },
   {
     "id": 2,
-    "name": "Watches",
+    "category": "Watches",
     "items": 65,
     "discount": "25%",
     "image": "public/category/02.jpg"
   },
   {
     "id": 3,
-    "name": "Dresses",
+    "category": "Dresses",
     "items": 548,
     "discount": "40%",
     "image": "public/category/03.jpg"
   },
   {
     "id": 4,
-    "name": "Glasses",
+    "category": "Glasses",
     "items": 48,
     "discount": "20%",
     "image": "public/category/04.jpg"
   },
   {
     "id": 5,
-    "name": "Cosmetics",
+    "category": "Cosmetics",
     "items": 59,
     "discount": "30%",
     "image": "public/category/05.jpg"
   },
   {
     "id": 6,
-    "name": "Kids Wear",
+    "category": "Kids Wear",
     "items": 154,
     "discount": "45%",
     "image": "public/category/06.jpg"
