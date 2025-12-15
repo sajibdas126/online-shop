@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
 import { TbCurrencyTaka } from 'react-icons/tb'
+import { Link } from 'react-router'
 
 
 export const ProductCart = ({product}) => {
@@ -8,6 +9,7 @@ export const ProductCart = ({product}) => {
    <div>
      <div className='w-74 border flex flex-col justify-center items-center  border-gray-200 rounded-md shadow'>
        <img className='w-72 flex '  src={product.image} alt="" />
+       <Link to={`/product/${product.id}`}>
         <div className='text-left w-full p-3 '>
             <p className='text-gray-400'>{product.category}</p>
             <h1 className='font-semibold text-gray-700'>{product.title}</h1>
@@ -24,8 +26,8 @@ export const ProductCart = ({product}) => {
                 <p className='line-through flex items-center text-gray-500'>{product.oldPrice}<TbCurrencyTaka/></p>
            
             </div>
-
         </div>
+        </Link>
     </div>
    </div>
   )

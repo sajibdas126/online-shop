@@ -10,6 +10,7 @@ import { About } from './Pages/About/About';
 import { Blog } from './Pages/Blog/Blog';
 import { Contact } from './Pages/Contact/Contact';
 import Auth from './Pages/Auth';
+import { SingelProductPage } from './Components/SherComponent/SingelProductPage';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
       { path: "/blog", element: <Blog></Blog> },
       { path: "/contact", element: <Contact></Contact> },
       { path: "/auth", element: <Auth></Auth> },
-      
+       {path: "/product/:id", element: <SingelProductPage></SingelProductPage> },//daymimack product page
 
     ],
   },

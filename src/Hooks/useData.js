@@ -6,7 +6,7 @@ export const useData = () => {
     const [products, setProducts] = useState([])
 
       useEffect(() => {
-        fetch("public/Category.json")
+        fetch("/public/Category.json")
           .then(res => res.json())
           .then(data => setCategory(data))
           .catch(err => console.error(err))
@@ -15,7 +15,7 @@ export const useData = () => {
        
     
       useEffect(() => {
-        fetch("public/products.json")
+        fetch("/public/products.json")
           .then(res => res.json())
           .then(data => setProducts(data))
           .catch(err => console.error(err))

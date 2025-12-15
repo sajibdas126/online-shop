@@ -5,7 +5,7 @@ import { ProductCart } from '../../Components/SherComponent/ProductCart';
 export const Product = () => {
   const { products, Categorys } = useData();
   const [id, setId] = useState();
-  const [width,setWidth]= useState()
+  const [fit,setFit]= useState()
 
   // Debug logs
   console.log("CATEGORIES:", Categorys);
@@ -17,17 +17,27 @@ export const Product = () => {
     setId(prev => (prev === categoryId ? null : categoryId));
   };
 
-  const filterData = id
-    ? products.filter(p => {
-        console.log(
-          "CHECK PRODUCT:",
-          "product.id:", p.id,
-          "| categoryid:", p.category_id,
-          "| selected:", id
-        );
-        return Number(p.categoryId) === Number(id);
-      })
-    : products;
+  const handelClickFit =(f) =>{
+    setFit(f)
+  }
+
+  // const filterData = id
+  //   ? products.filter(p => {
+  //       console.log(
+  //         "CHECK PRODUCT:",
+  //         "product.id:", p.id,
+  //         "| categoryid:", p.category_id,
+  //         "| selected:", id
+  //       );
+  //       return Number(p.categoryId) === Number(id);
+  //     })
+  //   : products;
+
+  const filterData = products.filter(p=>{
+    const matchCategory = id? p.categoryID == id : products;
+    const matchfit = fit ? p.fit == fit : products
+    return matchCategory && matchfit
+  })
 
   console.log("FILTERED DATA:", filterData);
 
@@ -59,10 +69,10 @@ export const Product = () => {
             <div className='mt-12'>
                <p className='border-b border-gray-200 pb-3 mb-4'>Width</p>
                {
-                products.map(p=>(
+               [...new Set(products.map(p=>p.fit))].map(p=>(
                   <div className='flex gap-2 items-center mb-2'>
                     <input type="checkbox" />
-                    <p className='cursor-pointer ' onClick={() => handelClick(p.id) }>{p.fit}</p>
+                    <p onClick={()=>handelClickFit(p)} className='cursor-pointer ' onClick={() => handelClickFit(p) }>{p}</p>
                   </div>
                 ))
                }
